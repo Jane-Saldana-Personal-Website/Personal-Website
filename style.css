@@ -7,3 +7,13 @@ h4{
     text-align: center;
     color: black;
 }
+/* Sticky Footer */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
