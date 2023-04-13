@@ -2,11 +2,14 @@ body{
     background-color: rgb(76, 110, 112);
     padding: 5px;
 }
-h4{
+
+.quote{
     text-decoration: wavy;
     text-align: center;
-    color: black;
+    color: antiquewhite;
+    font-size: x-large;
 }
+
 /* Sticky Footer */
 html, body {
     height: 100%;
@@ -16,4 +19,46 @@ html, body {
 
 main {
     flex: 1;
+}
+
+header {
+    background-color: black;
+    }
+
+footer {
+    text-align: center; 
+    background-color: black;  
+}
+
+.name{
+    float: left;
+    font-size: xx-large;
+    color: antiquewhite;
+}
+
+.links{
+    float: right;
+    font-size: xx-large;    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;  
+}
+
+.forminput {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+}
+
+.submitbutton {
+    margin-top: 1rem;
+    padding: .5rem 3rem;
+    width: 30%;
+    align-self: center; 
+    background-color: skyblue;   
 }
