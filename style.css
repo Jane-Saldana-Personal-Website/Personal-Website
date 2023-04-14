@@ -41,7 +41,7 @@ footer {
     font-size: xx-large;    
 }
 
-.form{
+.format{
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;  
@@ -55,7 +55,7 @@ footer {
     align-self: center;
 }
 
-.submitbutton {
+#submit {
     margin-top: 1rem;
     padding: .5rem 3rem;
     width: 30%;

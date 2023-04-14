@@ -17,9 +17,9 @@
 <Main>
     <H2>Interested in contacting me? Please fill out this form:</H2>
 </Main>
-   <!--Contact Form-->
- <form action="submitsuccess.html">
-    <div class="form">
+   <!--Contact Form-->   
+   <form method="post" enctype="text/plain" id="form">
+    <div class="format">
         <div class="forminput">
             <label for="name">Name</label>
             <input type="text">
@@ -31,14 +31,15 @@
         <div class="forminput">
             <label for="message">Message</label>
             <input type="text">
-        </div>
-        <input type="submit" value="Submit" class="submitbutton">
+        </div>        
+        <input type="submit" value="Send" id="submit">
     </div>
-</form>
+   </form>  
 
 <footer>
     <a href="https://github.com/jhsaldana"><img src="ImagesPersonalSite/github-mark-white.png" alt="Github"height="50px" width="50px"/></a> 
 </footer>
+<script src="contact.js"></script>
 <script src="script.js"></script>
 </Body>
 </html>
